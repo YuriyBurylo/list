@@ -49,7 +49,7 @@ function App() {
       <div className="App">
         {
           success ?         
-          <Success count={invites.length} /> :
+          <div className="success"><Success count={invites.length} /></div> :
           <Users search={searchValue} searchFunc={searchFunction} items={users} loading={isLoading} onClickInvite={onClickInvite} invites={invites} sendInvites={sendInvites}/>
         }
       </div>
