@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.input {
+    width: 75%;
+    margin: 2rem auto;
+    height: 1.5rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.skeleton {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,21 @@
+.container {
+    margin: auto;
+    min-width: 380px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container h3 {
+    font-size: 2rem;
+}
+
+.container p {
+    font-size: 1.3rem;
+}
+
+.back_btn {
+    width: 60%;
+}
